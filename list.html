@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Games List</title>
+  <style>
+    h1 {text-align: center;}
+  </style>
+<title>Lexia</title>
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <h1>Lexia Games</h1>
 <div class="container">
 <div class="box">
 <input type="text" id="gsearchbar" onkeyup="var a=document.querySelectorAll('#glist a[href]');for(var i=0;i<a.length;i++)a[i].style.display=a[i].textContent.toUpperCase().indexOf(this.value.toUpperCase())!=-1?'block':'none'" autocomplete="off" spellcheck="false" placeholder="Search" />
