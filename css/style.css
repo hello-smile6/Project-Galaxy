@@ -6,7 +6,6 @@ body {
 
 .container {
 	padding: 20px;
-	box-shadow: 2px 2px 5px red;
 }
 
 .box {
@@ -15,6 +14,7 @@ body {
 	padding: 10px;
 	width: 400px;
 	border-radius: 25px;
+	box-shadow: 2px 2px 5px red;
 }
 
 #glist {
