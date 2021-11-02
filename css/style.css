@@ -13,6 +13,7 @@ body {
 	background-color: white;
 	padding: 10px;
 	width: 400px;
+	border-radius: 25px;
 }
 
 #glist {
@@ -22,6 +23,7 @@ body {
 	height: 520px;
 	padding: 0;
 	text-align: center;
+	border-radius: 25px;
 }
 
 #gsearchbar {
@@ -32,11 +34,13 @@ body {
 	padding: 12px;
 	margin-bottom: 10px;
 	transition: 0.2s ease;
+	border-radius: 25px;
 }
 
 #gsearchbar:focus {
 	background-color: #eee;
 	box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
 }
 
 #glist h2 {
@@ -49,6 +53,7 @@ body {
 	padding: 12px;
 	font-weight: bold;
 	user-select: none;
+	border-radius: 25px;
 }
 
 #glist a {
@@ -61,11 +66,13 @@ body {
 	background-color: #f6f6f6;
 	padding: 12px;
 	transition: 0.2s ease;
+	border-radius: 25px;
 }
 
 #glist a:hover {
 	background-color: #eeeeee;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
 }
 
 li {
