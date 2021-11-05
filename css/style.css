@@ -42,7 +42,7 @@ body {
 #gsearchbar:focus {
 	background-color: #eee;
 	box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.4);
-	border-radius: 25px;
+	border-radius: 20px;
 }
 
 #glist h2 {
@@ -75,7 +75,6 @@ body {
 	background-color: #eeeeee;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 	border-radius: 25px;
-	transition: width .35s ease-in-out;
 }
 
 li {
