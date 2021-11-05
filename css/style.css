@@ -75,6 +75,7 @@ body {
 	background-color: #eeeeee;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 	border-radius: 25px;
+	transition: width .35s ease-in-out;
 }
 
 li {
