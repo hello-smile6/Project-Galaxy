@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	color: white;
 	font-family: sans-serif;
+	background-image: linear-gradient(cyan, blue);
 }
 
 .container {
