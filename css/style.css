@@ -1,1 +1,5 @@
-
+body {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
