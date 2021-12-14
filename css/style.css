@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-image: url("https://lexia.vercel.app/files/Cristmas.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
