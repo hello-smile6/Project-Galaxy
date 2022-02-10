@@ -6,12 +6,20 @@
 <link rel="stylesheet" href="/css/bg.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     
 <!--nav bar-->
-<div class="w3-bar w3-black w3-animate-left" class="w3-animate-opacity">
-  <a href="/" class="w3-bar-item w3-button" style="text-shadow:4px 4px 3px #444">Home</a>
-  <a href="/gfiles" class="w3-bar-item w3-button" style="text-shadow:4px 4px 3px #444">Games</a>
-  <a href="/news.html" class="w3-bar-item w3-button" style="text-shadow:4px 4px 3px #444">News</a>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
 </div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
 </head>
 <body>
 
