@@ -82,12 +82,20 @@
   
 <title>Galaxy Games - Games List</title>
 	
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     
 <!--nav bar-->
-<div class="w3-bar w3-black w3-center w3-animate-left">
-  <a href="/" class="w3-bar-item w3-button" style="text-shadow:4px 4px 3px #444">Home</a>
-  <a href="/gfiles" class="w3-bar-item w3-button" style="text-shadow:4px 4px 3px #444">Games</a>
-  <a href="/news.html" class="w3-bar-item w3-button" style="text-shadow:4px 4px 3px #444">News</a>
-  </div>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("/nav.html");
+});
+</script>
+<!--end of Navigation bar-->
 </head>
 <body>
 <div class="container">
